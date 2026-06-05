@@ -222,7 +222,7 @@ a {
   min-height: 320px;
   border: 1px solid #ffffff22;
   border-radius: 18px;
-  background: linear-gradient(120deg, #090b1e88, #000a), url('assets/unfortunately-screenshot.png') center/cover;
+  background: linear-gradient(120deg, #090b1e88, #000a), url('unfortunately-screenshot.png') center/cover;
   box-shadow: 0 30px 90px #0008;
   position: relative;
   overflow: hidden
@@ -696,7 +696,7 @@ a {
 
 /* LUMORA LABS v2.0 About page update */
 .aboutArt {
-  background: linear-gradient(120deg, #090b1e88, #0009), url('assets/about-aurora.png') center/cover;
+  background: linear-gradient(120deg, #090b1e88, #0009), url('about-aurora.png') center/cover;
 }
 
 .aboutArt:after {
@@ -716,7 +716,7 @@ a {
   align-items: center;
   padding: 140px 7vw 80px;
   overflow: hidden;
-  background: linear-gradient(90deg, #050713 0%, #050713d8 29%, #05071355 58%, #050713 100%), url('assets/about-aurora.png') right center/cover no-repeat;
+  background: linear-gradient(90deg, #050713 0%, #050713d8 29%, #05071355 58%, #050713 100%), url('about-aurora.png') right center/cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 
@@ -799,7 +799,7 @@ a {
   }
 
   .aboutHeroImage {
-    background-image: linear-gradient(90deg, #050713 0%, #050713d8 55%, #05071366 100%), url('assets/about-aurora.png');
+    background-image: linear-gradient(90deg, #050713 0%, #050713d8 55%, #05071366 100%), url('about-aurora.png');
   }
 }
 
