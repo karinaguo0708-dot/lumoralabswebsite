@@ -491,6 +491,10 @@ h3 {
   font-size: clamp(34px, 4vw, 58px);
 }
 
+.featureProject h2.compactTitle {
+  font-size: clamp(28px, 3vw, 44px);
+}
+
 .smallCopy {
   font-size: 16px;
 }
@@ -570,11 +574,15 @@ h3 {
   line-height: .88;
 }
 
-.aboutHeroText p:last-child {
+.aboutHeroText p:not(.eyebrow) {
   max-width: 650px;
   color: #3c4a50;
   font-size: clamp(18px, 2vw, 24px);
   line-height: 1.6;
+}
+
+.aboutHeroText p:not(.eyebrow) + p:not(.eyebrow) {
+  margin-top: 12px;
 }
 
 .manifesto {
