@@ -4,48 +4,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>About | LUMORA LABS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="nav">
-  <a class="brand logo-brand" href="index.html"><img src="lumora-logo.png" class="site-logo" alt="LUMORA LABS logo"><span class="brand-name">LUMORA LABS</span></a>
-  <nav class="navlinks">
-    <a href="index.html">HOME</a>
-    <a class="active" href="about.html">ABOUT</a>
-    <a href="project.html">PROJECTS</a>
-    <a href="future.html">FUTURE</a>
-    <a href="contact.html">CONTACT</a>
+  <a class="brand logo-brand" href="index.html">
+    <img src="lumora-logo.png" class="site-logo" alt="LUMORA LABS logo">
+    <span class="brand-name">LUMORA LABS</span>
+  </a>
+  <nav class="navlinks" aria-label="Primary navigation">
+    <a href="index.html">Home</a>
+    <a class="active" href="about.html">About</a>
+    <a href="project.html">Projects</a>
+    <a href="future.html">Future</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main class="aboutPage">
   <section class="aboutHeroImage">
-    <div class="aboutHeroOverlay"></div>
     <div class="aboutHeroText">
-      <div class="eyebrow">About us</div>
-      <h1>Create.<br>Inspire.<br>Impact.</h1>
+      <p class="eyebrow">About Lumora</p>
+      <h1>Create. Inspire. Impact.</h1>
       <p>LUMORA LABS is an indie studio exploring games, education, psychology, and meaningful digital experiences.</p>
+    </div>
+  </section>
+
+  <section class="section manifesto">
+    <div class="manifestoText">
+      <p class="eyebrow">Studio belief</p>
+      <h2>Games can make complicated systems feel human.</h2>
+    </div>
+    <div class="manifestoCopy">
+      <p class="copy">We are interested in the gap between what people say and what situations ask of them. Our projects use playable decisions to make that gap visible.</p>
+      <p class="copy">That means smaller experiences, sharper scenarios, and systems that invite players to reflect after the screen fades.</p>
     </div>
   </section>
 
   <section class="section valuesSection">
     <div class="valuesIntro">
-      <div class="eyebrow">Our values</div>
+      <p class="eyebrow">Our values</p>
       <h2>The principles that guide everything we build.</h2>
-      <p class="copy">We create experiences that respect players, challenge perspectives, and inspire growth.</p>
     </div>
     <div class="values refinedValues">
-      <div class="value"><div class="icon">✒</div><b>Meaningful Design</b><p>Every mechanic, every choice, every detail should matter.</p></div>
-      <div class="value"><div class="icon">☷</div><b>Player Impact</b><p>Players are more than users. We design for reflection and learning.</p></div>
-      <div class="value"><div class="icon">⚑</div><b>Indie Spirit</b><p>We stay independent, curious, and honest in what we build.</p></div>
-      <div class="value"><div class="icon">▰</div><b>Always Learning</b><p>We listen, test, improve, and keep evolving with our community.</p></div>
+      <article class="value"><div class="icon">01</div><b>Meaningful Design</b><p>Every mechanic, choice, and detail should matter.</p></article>
+      <article class="value"><div class="icon">02</div><b>Player Impact</b><p>Players are more than users. We design for reflection and learning.</p></article>
+      <article class="value"><div class="icon">03</div><b>Indie Spirit</b><p>We stay independent, curious, and honest in what we build.</p></article>
+      <article class="value"><div class="icon">04</div><b>Always Learning</b><p>We listen, test, improve, and keep evolving with our community.</p></article>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div><b>LUMORA LABS</b><br>We create meaningful experiences through games and technology.</div>
-  <div>Partnerships: uoik347@gmail.com<br>Development: karinaguo0708@gmail.com</div>
+  <div>Partnerships: <a href="mailto:uoik347@gmail.com">uoik347@gmail.com</a><br>Development: <a href="mailto:karinaguo0708@gmail.com">karinaguo0708@gmail.com</a></div>
   <div>© <span data-year></span> LUMORA LABS.</div>
 </footer>
 <script src="script.js"></script>
