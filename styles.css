@@ -503,6 +503,57 @@ h3 {
   align-items: stretch;
 }
 
+.formMenu {
+  position: relative;
+  display: inline-flex;
+}
+
+.formToggle {
+  width: 100%;
+  cursor: pointer;
+  font: inherit;
+}
+
+.formOptions {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 10px);
+  z-index: 8;
+  display: grid;
+  gap: 6px;
+  min-width: 190px;
+  padding: 8px;
+  border: 1px solid rgba(30, 43, 48, .13);
+  border-radius: 18px;
+  background: rgba(255, 252, 246, .96);
+  box-shadow: 0 18px 48px rgba(53, 43, 32, .16);
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.formOptions a {
+  padding: 11px 13px;
+  border-radius: 12px;
+  color: #172129;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.formOptions a:hover,
+.formOptions a:focus-visible {
+  background: rgba(21, 150, 141, .11);
+  color: #147f78;
+}
+
+.formMenu:hover .formOptions,
+.formMenu:focus-within .formOptions {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 .wideCta {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
